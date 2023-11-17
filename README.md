@@ -3,14 +3,9 @@ The data and standalone program of ESM-DBP
 
 The pretraining data set UniDBP40 and models of ESM-DBP can be download at https://huggingface.co/zengwenwu/UniDBP40 and https://huggingface.co/zengwenwu/ESM-DBP, respectively.
 
-
-# TPSO-DBP
-Standalone Program of TPSO-DBP
 # Pre-requisite:
-- Python(3), java(1.8),numpy(1.20 or higher), pytorch(1.5 or higher)
-- SANN software (https://github.com/newtonjoo/sann)
-- NCBI nr90 database (ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
-- PSIPRED(psiped321) software(https://i12r-studfilesrv.informatik.tu-muenchen.de/wiki/index.php/Psipred)
+- Python3, numpy(1.20 or higher), pandas, pytorch(1.5 or higher)
+- esm(https://github.com/facebookresearch/esm)
 - Linux system (suggested CentOS 7)
 # Installation:
 - First, download compressed packages in (https://github.com/wwzll123/TPSO/tree/main/Standalone_Program)
