@@ -8,7 +8,7 @@ The data and a user-friendly standalone program of ESM-DBP
   
 # Installation:
 - 1.Download the source code in this 
-- 2.Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP.
+- 2.Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP, and make sure ther locate in the same folder.
 
  # Running
 - Enter the following command lines on Linux System.
