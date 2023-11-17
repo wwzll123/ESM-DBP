@@ -7,7 +7,8 @@ The data and a user-friendly standalone program of ESM-DBP
 - Linux system (suggested CentOS 7)
   
 # Installation:
-- Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP.
+- 1.Download the source code in this 
+- 2.Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP.
 
  # Running
 - Enter the following command lines on Linux System.
