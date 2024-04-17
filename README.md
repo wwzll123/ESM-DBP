@@ -28,6 +28,6 @@ The data and a user-friendly standalone program of ESM-DBP
 - All the best to you!
 
 # Reference
-[1] Wenwu Zeng, Dafeng Lv, Liwen Xu, Shaoliang Peng. Interpretable improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein. Submitted.
+[1] Wenwu Zeng, Yutao Dou, Liangrui Pan, Liwen Xu, Shaoliang Peng. Interpretable improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein. Submitted.
  
 
