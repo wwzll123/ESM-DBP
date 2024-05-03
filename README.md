@@ -9,6 +9,7 @@ The data and a user-friendly standalone program of ESM-DBP
 # Installation:
 - 1.Download the source code in this repository.
 - 2.Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP, and make sure they locate in the same folder.
+- 3.Typical install time on a "normal" desktop computer is about about 30 minutes, depending on the Download speed from Huggingface.
 
  # Running
 - Enter the following command lines on Linux System.
@@ -23,6 +24,7 @@ The data and a user-friendly standalone program of ESM-DBP
 # Note
 - The feature representation of ESM-DBP will be generated named protein_name.fea.
 - The prediction results in .csv format will be generated in $result_dir.
+- For a typical sequence of about 500 in length, it takes only a few seconds to complete the entire prediction.
 - The pretraining data set UniDBP40 can be download at https://huggingface.co/zengwenwu/UniDBP40.
 - If you have any question, please email to wwz_cs@126.com freely.
 - All the best to you!
