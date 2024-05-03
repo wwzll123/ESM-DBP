@@ -20,6 +20,11 @@ The data and a user-friendly standalone program of ESM-DBP
 - [fasta_path]: The path of query protein sequences in fasta format.
 - [result_dir]: The path of folder of prediction results.
 - [device]: cuda or cpu
+
+# Description of the code's functionality
+- 1.Download the source code in this repository.
+- 2.Download the models of ESM-DBP at https://huggingface.co/zengwenwu/ESM-DBP, and make sure they locate in the same folder.
+- 3.Typical install time on a "normal" desktop computer is about about 30 minutes, depending on the Download speed from Huggingface.
   
 # Note
 - The feature representation of ESM-DBP will be generated named protein_name.fea.
