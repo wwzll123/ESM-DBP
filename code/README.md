@@ -32,7 +32,7 @@ The data and a user-friendly standalone program of ESM-DBP
 - If you have any question, please email to wwz_cs@126.com freely.
 - All the best to you!
 - 
-# Domain-adaptive training
+# Domain-adaptive pretraining
 - Before training the language model of ESM-DBP from scratch, you should download the UniDBP40 dataset at https://huggingface.co/datasets/zengwenwu/UniDBP40/tree/main. 
 - Then, enter the following command
 ```
@@ -41,7 +41,7 @@ The data and a user-friendly standalone program of ESM-DBP
 - [fasta_path]: The path of UniDBP40.
 - [device]: 'cuda:0' is recommended.
 - [batch_size]: This should depend on the available memory. Our memory size is 64GB, and a batch size of 100 is appropriate.
-- [device]: List of available CUDAs. For example: 0,1,2,3
+- [device_list]: List of available CUDAs. For example: 0,1,2,3
 - [epoch]: 20 is recommended.
 
 # Reference
