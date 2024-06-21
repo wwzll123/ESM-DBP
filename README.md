@@ -32,7 +32,7 @@ The data and a user-friendly standalone program of ESM-DBP
 - If you have any question, please email to wwz_cs@126.com freely.
 - All the best to you!
 
-# Domain-adaptive training
+# Domain-adaptive pretraining
 - Before training the language model of ESM-DBP from scratch, you should download the UniDBP40 dataset at https://huggingface.co/datasets/zengwenwu/UniDBP40/tree/main. 
 - Then, enter the following command
 ```
