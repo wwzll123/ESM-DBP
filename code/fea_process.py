@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 '''=================================================
-@Project -> ContactCry    ：FWorks -> fea_process
+@Project -> ESM-DBP    ：FWorks -> fea_process
 @IDE    ：PyCharm
 @Author : wenwuZeng
 @Date   ：2023/8/4 10:16
@@ -11,7 +11,6 @@ import esm
 import numpy as np
 
 
-#一条蛋白质的token表示，按照长度切开
 class token_represent():
     def __init__(self,pro_name,true_seq,need_token_len,convert_dict):
         self.token_list_represent=self.seq_to_eq_len_list(pro_name,true_seq,need_token_len)
