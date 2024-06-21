@@ -31,9 +31,21 @@ The data and a user-friendly standalone program of ESM-DBP
 - The pretraining data set UniDBP40 can be download at https://huggingface.co/zengwenwu/UniDBP40.
 - If you have any question, please email to wwz_cs@126.com freely.
 - All the best to you!
+- 
+# Domain-adaptive training
+- Before training the language model of ESM-DBP from scratch, you should download the UniDBP40 dataset at https://huggingface.co/datasets/zengwenwu/UniDBP40/tree/main. 
+- Then, enter the following command
+```
+ $ python domain_adaptive_train.py fasta_path device batch_size device_list epoch
+```
+- [fasta_path]: The path of UniDBP40.
+- [device]: 'cuda:0' is recommended.
+- [batch_size]: This should depend on the available memory. Our memory size is 64GB, and a batch size of 100 is appropriate.
+- [device]: List of available CUDAs. For example: 0,1,2,3
+- [epoch]: 20 is recommended.
 
 # Reference
-[1] Wenwu Zeng, Yutao Dou, Liangrui Pan, Liwen Xu, Shaoliang Peng. Interpretable improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein. Submitted.
+[1] Wenwu Zeng, Yutao Dou, Liangrui Pan, Liwen Xu, Shaoliang Peng. Improving prediction performance of general protein language model by domain-adaptive pretraining on DNA-binding protein. Submitted.
  
 
 
