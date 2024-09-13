@@ -14,7 +14,7 @@ The data and a user-friendly standalone program of ESM-DBP
  # Running
 - Enter the following command lines on Linux System.
  ```
- $ python prediciton.py esm_model_dict_dir fasta_path result_dir device
+ $ python prediction.py esm_model_dict_dir fasta_path result_dir device
 ```
 - [esm_model_dict_dir]: The path of folder that contains all ESM-DBP models.
 - [fasta_path]: The path of query protein sequences in fasta format.
